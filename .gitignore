@@ -1,0 +1,36 @@
+# 编译产物
+unpackage/
+
+# 依赖
+node_modules/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+.kiro/
+.qoder/
+*.swp
+*.swo
+
+# 日志
+*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# 后端
+backend-thinkphp/vendor/
+backend-thinkphp/runtime/
+backend-thinkphp/.env
+backend-thinkphp/.phpunit.cache/
+
+# 临时文件
+*.tmp
+*.bak
+*.backup

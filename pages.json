@@ -1,0 +1,632 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/door/index",
+			"style": {
+				"navigationBarTitleText": "门店列表"
+			}
+		},
+		{
+			"path": "pages/door/list",
+			"style": {
+				"navigationBarTitleText": "门店列表"
+			}
+		},
+		{
+			"path": "pages/door/door",
+			"style": {
+				"navigationBarTitleText": "组局拼场"
+			}
+		},
+		{
+			"path": "pages/door/create-game",
+			"style": {
+				"navigationBarTitleText": "发起组局"
+			}
+		},
+		{
+			"path": "pages/door/chat",
+			"style": {
+				"navigationBarTitleText": "拼场聊天"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "门店首页",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/door/select",
+			"style": {
+				"navigationBarTitleText": "选择房间"
+			}
+		},
+
+		{
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/submit",
+			"style": {
+				"navigationBarTitleText": "提交订单",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#5AAB6E",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/order/search",
+			"style": {
+				"navigationBarTitleText": "搜索订单"
+			}
+		},
+		{
+			"path": "pages/order/review",
+			"style": {
+				"navigationBarTitleText": "订单评价"
+			}
+		},
+		{
+			"path": "pages/order/review-list",
+			"style": {
+				"navigationBarTitleText": "用户评价",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/my-reviews",
+			"style": {
+				"navigationBarTitleText": "我的评价",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/order/place",
+			"style": {
+				"navigationBarTitleText": "预约下单"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/user/set-info",
+			"style": {
+				"navigationBarTitleText": "设置信息"
+			}
+		},
+		{
+			"path": "pages/user/set-name",
+			"style": {
+				"navigationBarTitleText": "设置昵称"
+			}
+		},
+		{
+			"path": "pages/user/set-phone",
+			"style": {
+				"navigationBarTitleText": "设置手机号"
+			}
+		},
+		{
+			"path": "pages/recharge/index",
+			"style": {
+				"navigationBarTitleText": "优惠中心"
+			}
+		},
+
+		{
+			"path": "pages/coupon/index",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		},
+		{
+			"path": "pages/coupon/active",
+			"style": {
+				"navigationBarTitleText": "优惠活动"
+			}
+		},
+		{
+			"path": "pages/tuangou/index",
+			"style": {
+				"navigationBarTitleText": "团购兑换"
+			}
+		},
+		{
+			"path": "pages/balance/index",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},
+		{
+			"path": "pages/balance/get",
+			"style": {
+				"navigationBarTitleText": "获取余额"
+			}
+		},
+		{
+			"path": "pages/map/index",
+			"style": {
+				"navigationBarTitleText": "地图"
+			}
+		},
+
+		{
+			"path": "pages/location/index",
+			"style": {
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path": "pages/help/index",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/booking/index",
+			"style": {
+				"navigationBarTitleText": "预约"
+			}
+		},
+		{
+			"path": "pages/room/renew",
+			"style": {
+				"navigationBarTitleText": "续费"
+			}
+		},
+		{
+			"path": "pages/room/change",
+			"style": {
+				"navigationBarTitleText": "更换房间"
+			}
+		},
+		{
+			"path": "pages/pay/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},
+
+		{
+			"path": "pages/product/order",
+			"style": {
+				"navigationBarTitleText": "商品订单"
+			}
+		},
+		{
+			"path": "pages/product/order-info",
+			"style": {
+				"navigationBarTitleText": "订单信息"
+			}
+		},
+		{
+			"path": "pages/shop/index",
+			"style": {
+				"navigationBarTitleText": "商品"
+			}
+		},
+		{
+			"path": "pages/shop/pickup",
+			"style": {
+				"navigationBarTitleText": "商品存取"
+			}
+		},
+		{
+			"path": "pages/shop/checkout",
+			"style": {
+				"navigationBarTitleText": "商品结算"
+			}
+		},
+		{
+			"path": "pages/join/index",
+			"style": {
+				"navigationBarTitleText": "加入我们"
+			}
+		},
+		{
+			"path": "pages/score/index",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},
+		{
+			"path": "pages/card/index",
+			"style": {
+				"navigationBarTitleText": "会员卡"
+			}
+		},
+		{
+			"path": "pages/user/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "pagesA",
+			"name": "admin",
+			"pages": [
+				{
+					"path": "admin/index",
+					"style": {
+						"navigationBarTitleText": "管理后台"
+					}
+				},
+				{
+					"path": "admin/admin",
+					"style": {
+						"navigationBarTitleText": "员工管理"
+					}
+				},
+				{
+					"path": "admin/permission",
+					"style": {
+						"navigationBarTitleText": "权限管理"
+					}
+				},
+				{
+					"path": "cleaner/cleaner",
+					"style": {
+						"navigationBarTitleText": "保洁员管理"
+					}
+				},
+				{
+					"path": "door/manage",
+					"style": {
+						"navigationBarTitleText": "门店管理"
+					}
+				},
+	
+				{
+					"path": "door/set-info",
+					"style": {
+						"navigationBarTitleText": "设置房间信息"
+					}
+				},
+				{
+					"path": "door/set-list",
+					"style": {
+						"navigationBarTitleText": "房间列表设置"
+					}
+				},
+				{
+					"path": "room/list",
+					"style": {
+						"navigationBarTitleText": "房间列表"
+					}
+				},
+				{
+					"path": "notice/manage",
+					"style": {
+						"navigationBarTitleText": "通知管理"
+					}
+				},
+				{
+					"path": "vip/list",
+					"style": {
+						"navigationBarTitleText": "会员列表"
+					}
+				},
+				{
+					"path": "vip/detail",
+					"style": {
+						"navigationBarTitleText": "会员详情"
+					}
+				},
+				{
+					"path": "vip/blacklist",
+					"style": {
+						"navigationBarTitleText": "会员黑名单"
+					}
+				},
+				{
+					"path": "vip/set",
+					"style": {
+						"navigationBarTitleText": "设置会员"
+					}
+				},
+				{
+					"path": "vip/config",
+					"style": {
+						"navigationBarTitleText": "会员配置"
+					}
+				},
+				{
+					"path": "statics/index",
+					"style": {
+						"navigationBarTitleText": "数据统计"
+					}
+				},
+				{
+					"path": "statics/task",
+					"style": {
+						"navigationBarTitleText": "任务统计"
+					}
+				},
+				{
+					"path": "cleaner/index",
+					"style": {
+						"navigationBarTitleText": "保洁管理"
+					}
+				},
+				{
+					"path": "task/index",
+					"style": {
+						"navigationBarTitleText": "任务"
+					}
+				},
+				{
+					"path": "task/detail",
+					"style": {
+						"navigationBarTitleText": "任务详情"
+					}
+				},
+				{
+					"path": "task/settle",
+					"style": {
+						"navigationBarTitleText": "任务结算"
+					}
+				},
+				{
+					"path": "task/manager",
+					"style": {
+						"navigationBarTitleText": "任务管理"
+					}
+				},
+				{
+					"path": "coupon/set",
+					"style": {
+						"navigationBarTitleText": "设置优惠券"
+					}
+				},
+				{
+					"path": "coupon/info",
+					"style": {
+						"navigationBarTitleText": "优惠券详情"
+					}
+				},
+				{
+					"path": "coupon/set-info",
+					"style": {
+						"navigationBarTitleText": "优惠券信息"
+					}
+				},
+				{
+					"path": "store/set",
+					"style": {
+						"navigationBarTitleText": "设置门店"
+					}
+				},
+				{
+					"path": "store/set-info",
+					"style": {
+						"navigationBarTitleText": "门店信息"
+					}
+				},
+				{
+					"path": "store/set-sound",
+					"style": {
+						"navigationBarTitleText": "门店语音"
+					}
+				},
+				{
+					"path": "order/set",
+					"style": {
+						"navigationBarTitleText": "订单设置"
+					}
+				},
+				{
+					"path": "order/pay",
+					"style": {
+						"navigationBarTitleText": "支付订单"
+					}
+				},
+				{
+					"path": "order/pay-refund",
+					"style": {
+						"navigationBarTitleText": "微信支付退款"
+					}
+				},
+				{
+					"path": "discount/set",
+					"style": {
+						"navigationBarTitleText": "设置折扣"
+					}
+				},
+				{
+					"path": "device/list",
+					"style": {
+						"navigationBarTitleText": "设备列表"
+					}
+				},
+				{
+					"path": "device/ble-list",
+					"style": {
+						"navigationBarTitleText": "蓝牙设备"
+					}
+				},
+				{
+					"path": "device/add-lock",
+					"style": {
+						"navigationBarTitleText": "添加门锁"
+					}
+				},
+				{
+					"path": "device/config-gateway",
+					"style": {
+						"navigationBarTitleText": "配置网关"
+					}
+				},
+				{
+					"path": "device/config-lock-wifi",
+					"style": {
+						"navigationBarTitleText": "配置门锁WiFi"
+					}
+				},
+				{
+					"path": "device/bind",
+					"style": {
+						"navigationBarTitleText": "绑定设备"
+					}
+				},
+				{
+					"path": "device/status",
+					"style": {
+						"navigationBarTitleText": "设备状态",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "package/manage",
+					"style": {
+						"navigationBarTitleText": "套餐管理"
+					}
+				},
+				{
+					"path": "package/edit",
+					"style": {
+						"navigationBarTitleText": "编辑套餐"
+					}
+				},
+				{
+					"path": "product/manage",
+					"style": {
+						"navigationBarTitleText": "商品管理"
+					}
+				},
+				{
+					"path": "product/add",
+					"style": {
+						"navigationBarTitleText": "添加商品"
+					}
+				},
+				{
+					"path": "product/kind-manage",
+					"style": {
+						"navigationBarTitleText": "商品分类"
+					}
+				},
+	
+				{
+					"path": "template/set",
+					"style": {
+						"navigationBarTitleText": "设置模板"
+					}
+				},
+	
+				{
+					"path": "guide/index",
+					"style": {
+						"navigationBarTitleText": "使用指南"
+					}
+				},
+	
+				{
+					"path": "meituan/cancel",
+					"style": {
+						"navigationBarTitleText": "预订退款"
+					}
+				},
+				{
+					"path": "push/rule",
+					"style": {
+						"navigationBarTitleText": "推送规则"
+					}
+				},
+				{
+					"path": "scan/qr",
+					"style": {
+						"navigationBarTitleText": "扫码"
+					}
+				},
+				{
+					"path": "config/prepay",
+					"style": {
+						"navigationBarTitleText": "预付配置"
+					}
+				},
+				{
+					"path": "shop/pickup-manage",
+					"style": {
+						"navigationBarTitleText": "商品存取管理"
+					}
+				}
+			]
+		}
+	],
+	"preloadRule": {
+		"pages/user/index": {
+			"packages": ["admin"],
+			"network": "all"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "自助棋牌",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BCBCBC",
+		"selectedColor": "#5AAB6E",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/door/index",
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-in.png"
+			},
+			{
+				"pagePath": "pages/recharge/index",
+				"text": "优惠中心",
+				"iconPath": "static/icon/bar-coupon.png",
+				"selectedIconPath": "static/icon/coupon-in.png"
+			},
+			{
+				"pagePath": "pages/order/list",
+				"text": "我的订单",
+				"iconPath": "static/icon/order.png",
+				"selectedIconPath": "static/icon/order-in.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "个人中心",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my-in.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

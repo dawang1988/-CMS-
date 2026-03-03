@@ -1,0 +1,20 @@
+[Unit]
+Description=Smart Store MQTT Subscriber Service
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/path/to/backend-thinkphp/scripts
+Environment=MQTT_HOST=127.0.0.1
+Environment=MQTT_PORT=1883
+Environment=MQTT_USERNAME=smart_store_server
+Environment=MQTT_PASSWORD=change_me_in_production
+Environment=API_BASE_URL=http://127.0.0.1:8900/app-api
+Environment=WEBHOOK_SECRET=change_me
+ExecStart=/usr/bin/python3 /path/to/backend-thinkphp/scripts/mqtt_subscriber.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
